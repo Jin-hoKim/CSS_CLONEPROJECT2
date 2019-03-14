@@ -154,6 +154,10 @@ body {
     color: #34495e;
 }
 
+.recipes {
+    margin-top: 25px;
+}
+
 .recipes__list {
     display: grid;
     margin: 0;
