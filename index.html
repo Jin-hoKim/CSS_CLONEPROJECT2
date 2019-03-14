@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CSS_CloneProject2</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
 </head>
 
@@ -49,39 +50,71 @@
         <div class="featured__wrapper">
             <article class="featured-meal">
                 <h4 class="featured-meal__title">Panne Broccoli</h4>
-                <button class="featured-meal__button">➕</button>
+                <button class="featured-meal__button">
+                    <i class="fas fa-plus"></i>
+                </button>
             </article>
             <article class="featured-meal">
                 <h4 class="featured-meal__title">Lasagne Bolognese</h4>
-                <button class="featured-meal__button">➕</button>
+                <button class="featured-meal__button">
+                    <i class="fas fa-plus"></i>
+                </button>
             </article>
             <article class="featured-meal">
                 <h4 class="featured-meal__title">Lasagne</h4>
-                <button class="featured-meal__button">➕</button>
+                <button class="featured-meal__button">
+                    <i class="fas fa-plus"></i>
+                </button>
             </article>
             <article class="featured-meal">
                 <h4 class="featured-meal__title">Spaghetti Basil with Chicken</h4>
-                <button class="featured-meal__button">➕</button>
+                <button class="featured-meal__button">
+                    <i class="fas fa-plus"></i>
+                </button>
             </article>
         </div>
     </section>
 
     <section class="recipes">
         <ul class="recipes__list">
-            <li class="recipe">
+            <li class="recipe__item">
                 <span class="recipe__name">Pasta Carbonara with Ham</span>
-                <button class="recipe__button">➕</button>
+                <i class="fas fa-plus"></i>
             </li>
-            <li class="recipe">
+            <li class="recipe__item selected">
                 <span class="recipe__name">Lasagne Bolognese </span>
-                <button class="recipe__button">✔</button>
+                <i class="fas fa-check"></i>
             </li>
-            <li class="recipe">
+            <li class="recipe__item">
                 <span class="recipe__name">Spaghetti Basil with Chicken</span>
-                <button class="recipe__button">➕</button>
+                <i class="fas fa-plus"></i>
             </li>
         </ul>
     </section>
+
+    <section class="menubars">
+        <ul class="menubars__list">
+            <li class="menubar__item">
+                <span class="menubar__icon">
+                    <i class="far fa-eye"></i>
+                </span>
+                <span class="menubar__name">Explore</span>
+            </li>
+            <li class="menubar__item">
+                <span class="menubar__icon">
+                    <i class="fas fa-utensils"></i>
+                </span>
+                <span class="menubar__name">Menus</span>
+            </li>
+            <li class="menubar__item">
+                <span class="menubar__icon">
+                    <i class="fas fa-store-alt"></i>
+                </span>
+                <span class="menubar__name">Shopping</span>
+            </li>
+        </ul>
+    </section>
+
 </body>
 
 </html>
