@@ -188,13 +188,13 @@ body {
 
 .menubars {
     margin-top: 25px;
+    margin-bottom: 20px;
     padding: 0 var(--padding);
 }
 
 .menubars__list {
     margin: 0;
     padding: 0;
-    /* padding: 0 var(--padding); */
     list-style-type: none;
     display: grid;
     justify-content: space-between;
