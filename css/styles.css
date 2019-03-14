@@ -119,6 +119,7 @@ body {
     color: #ffffff;
     font-weight: 600;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
 }
 
 .featured-meal:first-child {
@@ -187,21 +188,25 @@ body {
 
 .menubars {
     margin-top: 25px;
+    padding: 0 var(--padding);
 }
 
 .menubars__list {
     margin: 0;
-    padding: 0 var(--padding);
+    padding: 0;
+    /* padding: 0 var(--padding); */
     list-style-type: none;
     display: grid;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
     grid-template-columns: repeat(3, 80px);
 }
 
 .menubars__list .menubar__item {
     display: grid;
     grid-template-rows: 3fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 5px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -216,9 +221,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45px;
-    height: 45px;
-    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
     transition: background-color 0.2s linear;
 }
 
@@ -228,6 +233,7 @@ body {
 }
 
 .menubar__item .menubar__name {
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 800;
+    width: 40px;
 }
